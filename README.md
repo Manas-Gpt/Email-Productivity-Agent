@@ -34,7 +34,7 @@ This is a Streamlit web application that acts as an AI-powered email productivit
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    pip install -r requirements.txt
    ```
-   *(Note: A `requirements.txt` file will need to be created. See the "Creating `requirements.txt`" section below.)*
+
 
 3. **Set up your environment variables:**
    - Create a file named `.env` in the root of the project.
