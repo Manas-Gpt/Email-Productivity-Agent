@@ -28,10 +28,8 @@ def get_gemini_model():
 
     genai.configure(api_key=api_key)
     return genai.GenerativeModel("gemini-2.0-flash")
-
+#
 model = get_gemini_model()
-
-
 
 
 st.set_page_config(
@@ -219,9 +217,9 @@ MOCK_INBOX = [
   },
   {
     "id": "21",
-    "sender": "reservations@airlines.com",
-    "subject": "Flight Confirmation: NYC to LON",
-    "body": "Your flight (FL123) to London is confirmed for Dec 12th. Please arrive 3 hours early. See attached ticket.",
+    "sender": "oneai@aiagent.com",
+    "subject": "Assignment: Complete Assessment",
+    "body": "Complete your assignment before the deadline. See attached document for details.",
     "timestamp": "2025-11-02T08:00:00Z",
     "attachment_url": "https://drive.google.com/file/d/1snMJ3cAZuXpLgXBSb9nBKO8Fw6X7QsKj/view?usp=sharing"
   },
