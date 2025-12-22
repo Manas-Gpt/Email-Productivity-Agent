@@ -28,7 +28,7 @@ def get_gemini_model():
 
     genai.configure(api_key=api_key)
     return genai.GenerativeModel("gemini-2.0-flash")
-#
+
 model = get_gemini_model()
 
 
