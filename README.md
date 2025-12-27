@@ -31,7 +31,7 @@ This is a Streamlit web application that acts as an AI-powered email productivit
 2. **Create a virtual environment and install dependencies:**
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   source `venv\Scripts\activate`
    pip install -r requirements.txt
    ```
 
